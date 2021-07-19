@@ -5,6 +5,7 @@ Simple tensorflow program to learn patterns in numbers.
 Example run:
 
 "Enter 10 numbers that have a pattern"
+
 x  y
 1) 4
 2) 8
