@@ -3,8 +3,8 @@ import numpy as np
 from tensorflow import keras
 
 # Data
-xs = np.array([1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0], dtype=float)    #took 9 houses with bedrooms 1,2,3....10 respectively
-ys = np.array([],dtype=float)       #prices of 9 houses in 'hundreds of thousands'
+xs = np.array([1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0], dtype=float)
+ys = np.array([],dtype=float)
 print("Enter 10 numbers that have a pattern\n")
 for i in range(10):
     number = float(input("Enter number " + str(i + 1) + ": "))
